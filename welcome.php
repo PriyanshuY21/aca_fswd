@@ -8,7 +8,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 }
 
 // Define the HTML page link
-$htmlPageLink = "task_nitrosk.html";
+$htmlPageLink = "index.html";
 
 // Redirect the user to the HTML page
 header("location: $htmlPageLink");
